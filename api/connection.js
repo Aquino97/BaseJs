@@ -9,9 +9,9 @@ var pgp = require('pg-promise')(
 var cn = {
     host: 'localhost',
     port: 5432,
-    database: 'ant',
-    user: 'pym',
-    password: 'wasp'
+    database: 'aquino',
+    user: 'aqui tampoco',
+    password: 'mucho menos'
 };
 
 module.exports = {

@@ -25,7 +25,7 @@
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
-var port = 8080;
+var port = 5432;
 
 var app = express();
 
@@ -37,5 +37,5 @@ var routes = require('./routes');
 app.use('/', routes);
 
 app.listen(port, function () {
-    console.log("Servidor NodeJs corriendo");
+    console.log("Servidor NodeJs corriendo en el puerto 5432");
 });
